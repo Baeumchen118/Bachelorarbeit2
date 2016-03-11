@@ -1,47 +1,44 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# TeX/LaTeX intermediates # 
+########################### 
+*~
+*.*~ 
+*.4ct 
+*.4tc 
+*.auto 
+*.aux 
+*.bak
+*.bbl 
+*.bcf 
+*.blg
+*.dvi 
+*.fmt
+*.glo 
+*.idv 
+*.idx 
+*.ilg 
+*.ind 
+*.lg 
+*.log 
+*.nav
+*.out
+*.pdx 
+*.pnd 
+*.run.xml
+*.save
+*.scmd
+*.snm
+*.sout
+*.synctex.gz
+*.tcp 
+*.tdo
+*.tmp 
+*.toc 
+*.tps
+*.vrb 
+*.xmpi 
+*.xref 
+*blx.bib 
+*doctest.sage 
+*sagetex.sage
+_region_.*
+.auto
