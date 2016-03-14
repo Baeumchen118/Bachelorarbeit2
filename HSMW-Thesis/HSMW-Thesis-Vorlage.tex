@@ -1,7 +1,11 @@
 \documentclass[150]{HSMW-Thesis}
 
-\Art{Bachelorarbeit}
+%Präambel
 
+\usepackage[utf8]{inputenc} 
+\usepackage{ngerman}
+
+\Art{Bachelorarbeit}
 \Anrede{Herr}
 \Vorname{Thomas}
 \Nachname{Kleebaum-Nagy}
@@ -30,6 +34,8 @@
 \ISBN{}
 
 \begin{document}
+\bibliographystyle{plain}
+
 
 \begin{Referat}
 % Referat
@@ -43,7 +49,9 @@
 % Diese Anweisung nicht loeschen!
 
 \chapter{Einleitung}
+\cite{Schulmeister2013}
 
+\cite{Schulmeister2013}
 \chapter{Das klassische Hochschulstudium}
 
 \chapter{Analyse klassischer und moderner Ausbildungsformen}
@@ -57,10 +65,11 @@
 \Anhang
 
 %\chapter{}
+\bibliography{HSMW-Thesis-Vorlage}
 
-\begin{thebibliography}{99}
-\bibitem{} 
-\end{thebibliography}
+%\begin{thebibliography}{99}
+%\bibitem{} 
+%\end{thebibliography}
 
 \end{document}
 
