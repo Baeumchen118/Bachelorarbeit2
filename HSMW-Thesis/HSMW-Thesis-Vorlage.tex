@@ -4,8 +4,8 @@
 
 \usepackage[utf8]{inputenc} 
 \usepackage{ngerman}
-\usepackage{nomencl}
-\makenomenclature
+\usepackage{glossaries}
+\makeglossaries
 
 \Art{Bachelorarbeit}
 \Anrede{Herr}
@@ -35,6 +35,13 @@
 \Verlag{}
 \ISBN{}
 
+%Unser Testeintrag
+\newglossaryentry{mooc}{name=MOOC,
+description={Ein \gls{moocs}, ein Massive Open Online Course, ist ein internetbasierter Kurs, der sich an viele Teilnehmende richtet (engl. "massive": "riesig, enorm"), offen für alle (engl. "open") und meist kostenlos ist. Man unterscheidet zwischen x\glspl{moocs} ("x" für "extension"; die Harvard University machte mit diesem Buchstaben in ihren Verzeichnissen auf virtuelle Kurse aufmerksam) und c\glspl{moocs} ("c" für "connectivism")}}
+
+
+\newacronym{moocs}{MOOC}{Massive Open Online Course}
+
 \begin{document}
 \bibliographystyle{apalike}
 
@@ -46,32 +53,31 @@
 % Vorwort
 \end{Vorwort}
 
+
 \Hauptteil
 % Diese Anweisung nicht loeschen!
-\printnomenclature
 
-\nomenclature{PC}{\uline{P}ersonal \uline{C}omputer}
-\nomenclature{PC}{\uline{P}ersonal \uline{C}omputer}
+
+%den Begriff im Text verwenden
 
 \chapter{Thesenerarbeitung}
-Möchte ich didaktisch gute Ausbildung betreiben, muss ich genau wissen mit wehm ich es zu tun habe. Das Ausbildungsmittel muss darauf zugeschnitten sein. 
-Ein gutes Ausbildungsmittel für alle gibt es nicht. Was haben die Studenten für eine Vorbildung (Unter- Übervorderung)? 
+Möchte ich didaktisch gute Ausbildung betreiben, muss ich genau wissen mit wem ich es zu tun habe. Das Ausbildungsmittel muss darauf zugeschnitten sein. 
+Ein gutes Ausbildungsmittel für alle gibt es nicht. Was haben die Studenten für eine Vorbildung (Unter- Überforderung)? 
 Besitzen Sie die Fähigkeiten um mit dem Ausbildungsmittel umzugehen. Besitzen Sie die Fähigkeit im den Lernstoff in einer Gruppe erarbeiten zu können?
 Müssen Sie evtl. angeleitet/geleitet werden (Blenend learning, Flipped classroom). Verstehen Sie die Sprache? Können Sie die notwendigen Werkzeuge einsetzen.
 Muss ich Grundlagen selber lehren oder reicht es aus in der Informationsflut des Internets Empfehlungen zu Tutorien zu geben (P/Q Formel Google mit Ungefähr 102.000 Suchergebnisse)?
 Onlineausbildung im Bereich der Grundlagenausbildung oder Spezialisirung? Woher kommen die Studenten (Abitur, 2. Bildungsweg) NC ja nein? Wie ist die Informationstechnische Vorbildung? 
-MOCCs als Erscheinung/Konsequenz teurer Studienengebühren? 
+MOCCs als Erscheinung/Konsequenz teurer Studiengengebühren? 
 
-Was wollen Bildungsträger? Hohe Einschreibelisten oder hohe Abschlussquoten? Können spezialisierte Lehrformen die Atraktivität der akademischen Schulbildung im Bereich der bundesländer begünstigen? 
+Was wollen Bildungsträger? Hohe Einschreibelisten oder hohe Abschlussquoten? Können spezialisierte Lehrformen die Attraktivität der akademischen Schulbildung im Bereich der Bundesländer begünstigen? 
 Was wolle/fordern zukünftige Arbeitgeber? Was wollen Studenten?
 
 
 
 \chapter{Fragen}
-\textbf{Berücksichtigen die derzeit verfügbaren MOOC's die aktuellen Erkenntnisse der Mediendidaktik und haben diese gegenüber der klassischen Hochschulausbildung Vorteile?}
+\textbf{Berücksichtigen die derzeit verfügbaren \glspl{moocs} die aktuellen Erkenntnisse der Mediendidaktik und haben diese gegenüber der klassischen Hochschulausbildung Vorteile?}
 
 \textbf{Ergänzen Sie die klassische Hochschulausbildung oder ersetzen sie Sie?}
-
 
 \begin{quote}
 Um  die  Chancen  und  Potenziale,  aber  auch  die  Schwächen  und  Risiken  dieses Lehr-/Lernszenarios fundierter bewerten zu können, bedarf es aber einer differenzierten 
@@ -79,13 +85,13 @@ Betrachtung, wie sie beispielhaft Rolf Schulmeister bereits Ende 2012 in seiner 
 \end{quote}
 
 \begin{quote}
-So haben MOOCs in der Regel mit sehr hohen Abbrecherquoten zu kämpfen, die sich vor allem durch die niederschwelligen Einstiegsmöglichkeiten, 
-aber auch häufig durch das didaktische Design erklären lassen. Darüber hinaus ist die Frage der Zertifizierung und vor allem der Anerkennung von in MOOCs erbrachten Leistungen 
+So haben \glspl{moocs} in der Regel mit sehr hohen Abbrecherquoten zu kämpfen, die sich vor allem durch die niederschwelligen Einstiegsmöglichkeiten, 
+aber auch häufig durch das didaktische Design erklären lassen. Darüber hinaus ist die Frage der Zertifizierung und vor allem der Anerkennung von in \glspl{moocs} erbrachten Leistungen 
 noch weitestgehend ungeklärt. 
 
 ... 
 
-Zudem ist bei vielen Geschäftsmodellen derprofit- als auch non-profit-getriebenen Portalanbieter der Aspekt des Datenschutzes 
+Zudem ist bei vielen Geschäftsmodellen der profit- als auch non-profit-getriebenen Portalanbieter der Aspekt des Datenschutzes 
 im Umgang mit den Leistungsdaten der Kursteilnehmenden rechtlich sehr problematisch.
 \end{quote} 
 
@@ -105,9 +111,8 @@ im Umgang mit den Leistungsdaten der Kursteilnehmenden rechtlich sehr problemati
 
 %\section{}
 
-\nomenclature[prefix]{symbol}{description}
-
 \Anhang
+\newglossaryentry{Label}{name=Begriff , description={Beschreibung}}
 
 %\chapter{}
 \bibliography{HSMW-Thesis-Vorlage}
@@ -115,6 +120,10 @@ im Umgang mit den Leistungsdaten der Kursteilnehmenden rechtlich sehr problemati
 %\begin{thebibliography}{99}
 %\bibitem{} 
 %\end{thebibliography}
+
+
+%Ausgabe des Verzeicnisses
+\printglossary[title=Glossar]
 
 \end{document}
 

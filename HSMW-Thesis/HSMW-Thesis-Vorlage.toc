@@ -1,0 +1,14 @@
+\doublespacing 
+\contentsline {chapter}{Inhaltsverzeichnis}{I}
+\contentsline {chapter}{Abbildungsverzeichnis}{II}
+\contentsline {chapter}{Tabellenverzeichnis}{III}
+\contentsline {chapter}{Vorwort}{IV}
+\contentsline {chapter}{\numberline {1}Thesenerarbeitung}{1}
+\contentsline {chapter}{\numberline {2}Fragen}{3}
+\contentsline {chapter}{\numberline {3}Einleitung}{5}
+\contentsline {chapter}{\numberline {4}Das klassische Hochschulstudium}{7}
+\contentsline {chapter}{\numberline {5}Analyse klassischer und moderner Ausbildungsformen}{9}
+\contentsline {chapter}{\numberline {6}Ver\IeC {\"a}nderung der Lern- und Ausbildungsform durch moderne Medien}{11}
+\contentsline {chapter}{\numberline {7}Ableitung von Empfehlungen f\IeC {\"u}r mediengest\IeC {\"u}tzte Lehrangebote}{13}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{15}
+\contentsline {chapter}{Glossar}{17}
